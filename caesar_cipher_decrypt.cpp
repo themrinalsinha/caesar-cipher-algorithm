@@ -20,5 +20,5 @@ main(void)
         cipher_str[i] = str[i] - key;
         if(cipher_str[i] < 97) cipher_str[i] += 26;
     }
-    cout << "Enctypted String is : " << cipher_str << "\n\n";
+    cout << "Decrypted String is : " << cipher_str << "\n\n";
 }
