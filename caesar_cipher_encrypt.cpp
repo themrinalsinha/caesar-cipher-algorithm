@@ -11,7 +11,7 @@ main(void)
 {
     char str[100], cipher_str[100];
     int key,enc;
-    cout << "\n\nEnter String to Encrypt : "; cin >> str;
+    cout << "\nEnter String to Encrypt : "; cin >> str;
     cout << "Enter the cipher key : "; cin >> key;
 
     for(int i = 0; i < strlen(str); i++)
@@ -20,5 +20,5 @@ main(void)
         cipher_str[i] = str[i] + key;
         if(cipher_str[i] > 122) cipher_str[i] -= 26;
     }
-    cout << "Enctypted String is : " << cipher_str << "\n\n";
+    cout << "Enctypted String is : " << cipher_str << "\n";
 }
